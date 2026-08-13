@@ -13,7 +13,7 @@ import java.io.IOException;
 
 @RestController
 @RequestMapping("/api/pdf")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://quiz-genius-frontend-gamma.vercel.app/")
 public class PdfController {
 
     @PostMapping(
@@ -45,7 +45,7 @@ public class PdfController {
 
     @RestController
     @RequestMapping("/api/quiz")
-    @CrossOrigin(origins = "http://localhost:5173")
+    @CrossOrigin(origins = "https://quiz-genius-frontend-gamma.vercel.app/")
     public static class QuizController {
 
         @PostMapping("/upload")
